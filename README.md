@@ -18,6 +18,8 @@ npm i # (equivalent de npm install)
 npm start
 ```
 
+
+
 ## Comment configurer l'URL de base vers votre API et utiliser cette URL
 - Dans **webpack.config**, veuillez configurer l'URL de votre API en fonction du **build mode** :
     - **`DEVELOPMENT_API_BASE_URL`** : laissez **'/api'** si vous souhaitez utiliser le proxy pour appeler votre api ou **http://localhost:3000** si vous préférez appeler directement l'API. Dans ce dernier cas, vous devez avoir autorisé l'origine de votre frontend (**http://localhost:8080**) via les CORS. 
